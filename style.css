@@ -1,0 +1,57 @@
+.link{
+    text-decoration: none;
+    color:whitesmoke;
+    padding:5px 10px;
+    margin: 5px 10px;
+}
+.button{
+    background-color: orange;
+    border:0 solid gray;
+    border-radius: 5px;
+}
+.head{
+    margin-left: 30px;
+}
+.header{
+    margin-left: 30px;
+}
+.other-img{
+    width: 600px;
+}
+.center{
+    text-align: center;
+}
+.frist-part{
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+}
+.shadow{
+    box-shadow:5px 10px 20px gray;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+.fa-star{ 
+            color: orange;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.img-set{
+    width:600px;
+    margin: 50px;
+}
+footer{
+    text-align: center;
+    background-color:darkblue;
+    color: whitesmoke;
+    margin: 0;
+}
