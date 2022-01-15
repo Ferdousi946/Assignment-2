@@ -91,7 +91,7 @@ footer{
         width:100%;
     }
     .img-set{
-        width:70%;
+        width:600px;
     }
     footer{
         width:100%;
@@ -99,8 +99,8 @@ footer{
 }
 @media  screen and (max-width:900px) {
     .other-img{
-        width: 70%;
-        order: 1;
+        width: 60%;
+        
     }
     .frist-part{
         flex-direction: column;
@@ -144,6 +144,6 @@ footer{
         width: 80%;
     }
     footer{
-        width: 80%;
+        width: 100%;
     }
 }
