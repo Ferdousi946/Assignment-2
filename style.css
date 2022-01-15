@@ -68,4 +68,82 @@ footer{
     background-color:darkblue;
     color: whitesmoke;
     margin: 0;
+    @media screen and (max-width:) {
+        
+    }
+}
+@media screen and (max-width:1400px){
+
+     .other-img{
+        width: 50%;
+        
+    }
+    .frist-part{
+        display: flex;
+        width: 100%;
+    }
+    .logos{
+        display: flex;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width:100%;
+    }
+    .img-set{
+        width:70%;
+    }
+    footer{
+        width:100%;
+    }
+}
+@media  screen and (max-width:900px) {
+    .other-img{
+        width: 70%;
+        order: 1;
+    }
+    .frist-part{
+        flex-direction: column;
+        width: 100%;
+    }
+    .logos{
+        flex-direction: column;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width:95%;
+    }
+    .img-set{
+        width:70%;
+    }
+    footer{
+        width:100%;
+    }
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+    
+    .head{
+        text-align: center;
+    }
+    
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 80%;
+    }
+    .img-set{
+        width: 80%;
+    }
+    footer{
+        width: 80%;
+    }
 }
